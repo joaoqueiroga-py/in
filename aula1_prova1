@@ -1,0 +1,9 @@
+# [LPIA-A01] Você está criando um programa para calcular a área de um retângulo. 
+# O programa deve solicitar ao usuário que forneça a base e a altura do retângulo. 
+# Em seguida, o programa deve calcular a área usando a fórmula:
+# Área=Base×Altura
+
+base = float(input("Qual o tamanho da base do retâgulo em centímetros? "))
+altura = float(input("Qual o tamanho da altura do retângulo em centimétros? "))
+area = base * altura
+print(f"A área do retângulo é igua a {area} cm2")
